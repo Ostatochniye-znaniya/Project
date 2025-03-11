@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
+    "Method": "CreateDepartment",
+    "RelativePath": "Department/CreateDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentRequest",
+        "Type": "KnowledgeApp.API.Contracts.DepartmentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
+    "Method": "Get",
+    "RelativePath": "Department/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

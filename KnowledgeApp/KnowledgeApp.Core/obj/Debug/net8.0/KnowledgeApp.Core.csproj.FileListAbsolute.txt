@@ -1,0 +1,12 @@
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.deps.json
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.dll
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.pdb
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.AssemblyInfoInputs.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.AssemblyInfo.cs
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.sourcelink.json
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.dll
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\refint\KnowledgeApp.Core.dll
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.pdb
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\ref\KnowledgeApp.Core.dll

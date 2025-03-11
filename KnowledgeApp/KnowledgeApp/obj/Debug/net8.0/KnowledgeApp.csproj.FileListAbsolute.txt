@@ -1,0 +1,8 @@
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.csproj.AssemblyReference.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.AssemblyInfoInputs.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.AssemblyInfo.cs
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.csproj.CoreCompileInputs.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darisha\Documents\ВУЗ\пд\app\KnowledgeApp\KnowledgeApp\obj\Debug\net8.0\KnowledgeApp.sourcelink.json
