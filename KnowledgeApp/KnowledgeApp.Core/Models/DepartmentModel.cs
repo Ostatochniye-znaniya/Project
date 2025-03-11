@@ -7,6 +7,12 @@ public class DepartmentModel
         Name = name;
         FacultyId = facultyId;
     }
+    public DepartmentModel(int id, string name, int? facultyId)
+    {
+        Id = id;
+        Name = name;
+        FacultyId = facultyId;
+    }
 
     public int Id { get; set; }
 

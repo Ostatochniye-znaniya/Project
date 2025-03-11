@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
       "projectName": "KnowledgeApp.Core",
-      "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
+      "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
       "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

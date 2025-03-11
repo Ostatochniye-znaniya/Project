@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj": {}
+    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
+    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
         "projectName": "KnowledgeApp.Application",
-        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
+        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
         "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\obj\\",
+        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj"
+              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj": {
+    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
         "projectName": "KnowledgeApp.Core",
-        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
+        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj",
         "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj": {
+    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj",
         "projectName": "KnowledgeApp.DataAccess",
-        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj"
+              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Core\\KnowledgeApp.Core.csproj"
               }
             }
           }
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj": {
+    "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
         "projectName": "KnowledgeApp.API",
-        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
+        "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
         "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp\\obj\\",
+        "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,8 +257,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
-                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj"
+              "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
+                "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj"
               }
             }
           }

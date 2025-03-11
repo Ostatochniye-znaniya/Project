@@ -17,12 +17,65 @@
   },
   {
     "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
-    "Method": "Get",
-    "RelativePath": "Department/Get",
+    "Method": "DeleteDepartment",
+    "RelativePath": "Department/DeleteDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
+    "Method": "GetDepartments",
+    "RelativePath": "Department/GetDepartments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
+    "Method": "GetDepatmentById",
+    "RelativePath": "Department/GetDepatmentById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KnowledgeApp.API.Controllers.DepartmentController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "Department/UpdateDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentRequest",
+        "Type": "KnowledgeApp.API.Contracts.DepartmentRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]
