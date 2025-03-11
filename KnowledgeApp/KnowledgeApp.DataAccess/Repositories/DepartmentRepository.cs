@@ -1,6 +1,8 @@
 ﻿using KnowledgeApp.DataAccess.Context;
 using KnowledgeApp.DataAccess.Entities;
 using KnowledgeApp.Core.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 namespace KnowledgeApp.DataAccess.Repositories
 {
@@ -13,9 +15,10 @@ namespace KnowledgeApp.DataAccess.Repositories
             _context = context;
         }
 
-        public async Task<int> CreateDepartment(DepartmentModel departmentModel)
+        public async Task<DepartmentModel> CreateDepartment(DepartmentModel departmentModel)
         {
-            // необходимые проверки 
+            var faculty = await _context.Faculties.SingleOrDefaultAsync(f => f.Id == departmentModel.FacultyId);
+            if (faculty == null) throw new Exception("Факультета с таким id не существует");
 
             var departmentEntity = new Department
             {
@@ -26,16 +29,66 @@ namespace KnowledgeApp.DataAccess.Repositories
             await _context.Departments.AddAsync(departmentEntity);
             await _context.SaveChangesAsync();
 
-            return departmentEntity.Id;
-
+            DepartmentModel createdDepartment = new DepartmentModel(departmentEntity.Id, departmentEntity.Name, departmentEntity.FacultyId);
+            return createdDepartment;
         }
 
-        // метод get
+        public async Task<List<DepartmentModel>> GetAllDepartments()
+        {
+            //достаем данные из бд
+            var departmentEntities = await _context.Departments
+                .AsNoTracking()
+                .ToListAsync();
 
-        // метод getAll
+            // преобразуем entities в models
+            var departments = departmentEntities
+                .Select(departmentEntity =>
+                {
+                    var departmentModel = new DepartmentModel(
+                        departmentEntity.Id,
+                        departmentEntity.Name,
+                        departmentEntity.FacultyId);
 
-        // метод update
+                    return departmentModel;
+                })
+                .ToList();
 
-        // метод delete
+            return departments;
+        }
+
+        public async Task<DepartmentModel> GetDepartmentById(int departmentId)
+        {
+            var departmentEntity = await _context.Departments.SingleOrDefaultAsync(d => d.Id == departmentId);
+            if (departmentEntity == null) throw new Exception("Department с таким id не существует");
+            DepartmentModel department = new DepartmentModel(departmentEntity.Id, departmentEntity.Name, departmentEntity.FacultyId);
+            return department;
+        }
+
+        public async Task<DepartmentModel> UpdateDepatment(DepartmentModel departmentModel)
+        {
+            var departmentEntity = await _context.Departments.SingleOrDefaultAsync(d => d.Id == departmentModel.Id);
+            if (departmentEntity == null) throw new Exception("Department с таким id не существует");
+
+            var facultyEntity = await _context.Faculties.SingleOrDefaultAsync(f => f.Id == departmentModel.FacultyId);
+            if (facultyEntity == null) throw new Exception("Факультета с таким id не существует");
+
+            departmentEntity.Name = departmentModel.Name;
+            departmentEntity.FacultyId = departmentEntity.FacultyId;
+            _context.SaveChanges();
+            var department = new DepartmentModel(departmentEntity.Id, departmentEntity.Name, departmentEntity.FacultyId);
+            return department;
+        }
+
+        public async Task<bool> DeleteDepartment(int departmentId)
+        {
+            var departmentEntity = await _context.Departments.SingleOrDefaultAsync(d => d.Id == departmentId);
+            if (departmentEntity == null) throw new Exception("Department с таким id не существует");
+            _context.Remove(departmentEntity);
+            _context.SaveChanges();
+
+            var department = await _context.Departments.SingleOrDefaultAsync(d => d.Id == departmentId);
+            if (department == null) return true;
+            else return false;
+        }
     }
 }

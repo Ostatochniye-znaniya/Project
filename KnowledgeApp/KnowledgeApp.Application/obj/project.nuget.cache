@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2AenxK8jeq8=",
+  "dgSpecHash": "j+/M3cNxpZs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\app\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
+  "projectFilePath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darisha\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\Darisha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",

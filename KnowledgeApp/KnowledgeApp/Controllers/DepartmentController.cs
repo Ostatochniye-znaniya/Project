@@ -15,13 +15,42 @@ namespace KnowledgeApp.API.Controllers
             _departmentService = departmentService;
         }
 
+        [HttpGet]
+        public async Task<IResult> GetDepartments()
+        {
+            try
+            {
+                List<DepartmentModel> departments = await _departmentService.GetAll();
+                return Results.Json(departments);
+
+            }
+            catch (Exception e)
+            {
+                return Results.Problem(e.Message);
+            }
+        }
+
+        [HttpGet]
+        public async Task<IResult> GetDepatmentById(int departmentId)
+        {
+            try
+            {
+                DepartmentModel department = await _departmentService.GetDepartmentById(departmentId);
+                return Results.Json(department);
+            }
+            catch (Exception e)
+            {
+                return Results.Problem(e.Message);
+            }
+        }
+
         [HttpPost]
         public async Task<IResult> CreateDepartment(DepartmentRequest departmentRequest)
         {
             try
             {
                 var newDepartmentModel = new DepartmentModel(departmentRequest.Name, departmentRequest.FacultyId);
-                int newDepartmentId = await _departmentService.CreateDepartmentAsync(newDepartmentModel);
+                DepartmentModel newDepartmentId = await _departmentService.CreateDepartment(newDepartmentModel);
                 return Results.Json(newDepartmentId);
 
             } catch(Exception e)
@@ -30,10 +59,33 @@ namespace KnowledgeApp.API.Controllers
             }
         }
 
-        [HttpGet]
-        public IResult Get()
+        [HttpPut]
+        public async Task<IResult> UpdateDepartment(int departmentId, DepartmentRequest departmentRequest)
         {
-            return Results.Ok();
+            try
+            {
+                var updatedDepartmentModel = new DepartmentModel(departmentId, departmentRequest.Name, departmentRequest.FacultyId);
+                var updatedDepartment = await _departmentService.UpdateDepartment(updatedDepartmentModel);
+                return Results.Json(updatedDepartment);
+            }
+            catch (Exception e)
+            {
+                return Results.Problem(e.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IResult> DeleteDepartment(int departmentId)
+        {
+            try
+            {
+                var result = await _departmentService.DeleteDepartment(departmentId);
+                return Results.Json(result);
+            }
+            catch (Exception e)
+            {
+                return Results.Problem(e.Message);
+            }
         }
     }
 }
