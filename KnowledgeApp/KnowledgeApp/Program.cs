@@ -14,6 +14,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<KnowledgeTestDbContext>();
 builder.Services.AddScoped<DepartmentService>();
 builder.Services.AddScoped<DepartmentRepository>();
+builder.Services.AddScoped<DisciplineRepository>();
+builder.Services.AddScoped<DisciplineService>();
+
+
 
 var app = builder.Build();
 
