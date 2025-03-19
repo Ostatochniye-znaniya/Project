@@ -81,7 +81,7 @@ namespace KnowledgeApp.API.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpDelete]
         public async Task<IResult> DeleteDiscipline(int disciplineId)
         {
             try
