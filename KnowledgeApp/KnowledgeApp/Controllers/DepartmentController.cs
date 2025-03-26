@@ -74,7 +74,7 @@ namespace KnowledgeApp.API.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpDelete]
         public async Task<IResult> DeleteDepartment(int departmentId)
         {
             try
