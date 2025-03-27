@@ -22,3 +22,15 @@ C:\Users\Darisha\Documents\ВУЗ\пд\Project\KnowledgeApp\KnowledgeApp.Core\ob
 C:\Users\Darisha\Documents\ВУЗ\пд\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\refint\KnowledgeApp.Core.dll
 C:\Users\Darisha\Documents\ВУЗ\пд\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.pdb
 C:\Users\Darisha\Documents\ВУЗ\пд\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\ref\KnowledgeApp.Core.dll
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.deps.json
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.dll
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\bin\Debug\net8.0\KnowledgeApp.Core.pdb
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.AssemblyInfoInputs.cache
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.AssemblyInfo.cs
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.sourcelink.json
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.dll
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\refint\KnowledgeApp.Core.dll
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\KnowledgeApp.Core.pdb
+C:\Users\ttk48\Project\KnowledgeApp\KnowledgeApp.Core\obj\Debug\net8.0\ref\KnowledgeApp.Core.dll

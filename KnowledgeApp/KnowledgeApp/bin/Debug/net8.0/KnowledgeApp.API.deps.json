@@ -538,18 +538,12 @@
           "KnowledgeApp.DataAccess": "1.0.0"
         },
         "runtime": {
-          "KnowledgeApp.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "KnowledgeApp.Application.dll": {}
         }
       },
       "KnowledgeApp.Core/1.0.0": {
         "runtime": {
-          "KnowledgeApp.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "KnowledgeApp.Core.dll": {}
         }
       },
       "KnowledgeApp.DataAccess/1.0.0": {
@@ -559,10 +553,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
-          "KnowledgeApp.DataAccess.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "KnowledgeApp.DataAccess.dll": {}
         }
       }
     }

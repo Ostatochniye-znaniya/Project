@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "VvAZTCbEnSbM+Bm70JOg/xt/3Ql+92mOcFlkm8Pcy+8=",
+  "Hash": "g5QWUCDt4W6uSBOGVIF0fY+6AE4tmMf48xKjzFJGe28=",
   "Source": "KnowledgeApp.API",
   "BasePath": "_content/KnowledgeApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

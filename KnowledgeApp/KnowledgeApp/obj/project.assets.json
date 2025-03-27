@@ -2738,24 +2738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darisha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ttk48\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\ttk48\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
       "projectName": "KnowledgeApp.API",
-      "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
-      "packagesPath": "C:\\Users\\Darisha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp\\obj\\",
+      "projectPath": "C:\\Users\\ttk48\\Project\\KnowledgeApp\\KnowledgeApp\\KnowledgeApp.API.csproj",
+      "packagesPath": "C:\\Users\\ttk48\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ttk48\\Project\\KnowledgeApp\\KnowledgeApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Darisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ttk48\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2769,8 +2764,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
-              "projectPath": "C:\\Users\\Darisha\\Documents\\ВУЗ\\пд\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj"
+            "C:\\Users\\ttk48\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj": {
+              "projectPath": "C:\\Users\\ttk48\\Project\\KnowledgeApp\\KnowledgeApp.Application\\KnowledgeApp.Application.csproj"
             }
           }
         }
@@ -2784,8 +2779,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2825,7 +2819,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
