@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9DE9619-887F-43AD-A92D-44BF4E42CCC1}|KnowledgeApp\\KnowledgeApp.API.csproj|c:\\users\\darisha\\documents\\\u0432\u0443\u0437\\\u043F\u0434\\project\\knowledgeapp\\knowledgeapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9DE9619-887F-43AD-A92D-44BF4E42CCC1}|KnowledgeApp\\KnowledgeApp.API.csproj|solutionrelative:knowledgeapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E937EA4E-14D3-406A-868A-2DE9176032A9}|KnowledgeApp.Application\\KnowledgeApp.Application.csproj|c:\\users\\darisha\\documents\\\u0432\u0443\u0437\\\u043F\u0434\\project\\knowledgeapp\\knowledgeapp.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E937EA4E-14D3-406A-868A-2DE9176032A9}|KnowledgeApp.Application\\KnowledgeApp.Application.csproj|solutionrelative:knowledgeapp.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62558FAD-4B9A-4CF5-84C6-0CD54B908130}|KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj|c:\\users\\darisha\\documents\\\u0432\u0443\u0437\\\u043F\u0434\\project\\knowledgeapp\\knowledgeapp.dataaccess\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62558FAD-4B9A-4CF5-84C6-0CD54B908130}|KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj|solutionrelative:knowledgeapp.dataaccess\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62558FAD-4B9A-4CF5-84C6-0CD54B908130}|KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj|c:\\users\\darisha\\documents\\\u0432\u0443\u0437\\\u043F\u0434\\project\\knowledgeapp\\knowledgeapp.dataaccess\\database\\context\\knowledgetestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62558FAD-4B9A-4CF5-84C6-0CD54B908130}|KnowledgeApp.DataAccess\\KnowledgeApp.DataAccess.csproj|solutionrelative:knowledgeapp.dataaccess\\database\\context\\knowledgetestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KnowledgeTestDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\Database\\Context\\KnowledgeTestDbContext.cs",
+              "RelativeDocumentMoniker": "KnowledgeApp.DataAccess\\Database\\Context\\KnowledgeTestDbContext.cs",
+              "ToolTip": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\Database\\Context\\KnowledgeTestDbContext.cs",
+              "RelativeToolTip": "KnowledgeApp.DataAccess\\Database\\Context\\KnowledgeTestDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T11:34:30.882Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -39,43 +44,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\Repositories\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "KnowledgeApp.DataAccess\\Repositories\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.DataAccess\\Repositories\\DepartmentRepository.cs",
-              "RelativeToolTip": "KnowledgeApp.DataAccess\\Repositories\\DepartmentRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:21:57.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.Application\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "KnowledgeApp.Application\\Services\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp.Application\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "KnowledgeApp.Application\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:58:58.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "KnowledgeApp\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\Darisha\\Documents\\\u0412\u0423\u0417\\\u043F\u0434\\Project\\KnowledgeApp\\KnowledgeApp\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "KnowledgeApp\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:56:28.914Z",
-              "EditorCaption": ""
             }
           ]
         },

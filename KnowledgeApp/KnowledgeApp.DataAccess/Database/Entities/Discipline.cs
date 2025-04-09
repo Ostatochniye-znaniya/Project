@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace KnowledgeApp.DataAccess.Entities;
+namespace KnowledgeApp.API;
 
 public partial class Discipline
 {

@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using KnowledgeApp.DataAccess.Entities;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 
-namespace KnowledgeApp.DataAccess.Context;
+namespace KnowledgeApp.API;
 
 public partial class KnowledgeTestDbContext : DbContext
 {
@@ -26,6 +28,8 @@ public partial class KnowledgeTestDbContext : DbContext
 
     public virtual DbSet<Role> Roles { get; set; }
 
+    public virtual DbSet<Semester> Semesters { get; set; }
+
     public virtual DbSet<Status> Statuses { get; set; }
 
     public virtual DbSet<Student> Students { get; set; }
@@ -42,7 +46,7 @@ public partial class KnowledgeTestDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=localhost;database=knowledge_test_db;user id=root;pwd=admin;port=3306", Microsoft.EntityFrameworkCore.ServerVersion.Parse("9.1.0-mysql"));
+        => optionsBuilder.UseMySql("server=localhost;database=knowledge_test_db;user=root;password=admin", Microsoft.EntityFrameworkCore.ServerVersion.Parse("9.1.0-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -172,6 +176,18 @@ public partial class KnowledgeTestDbContext : DbContext
             entity.Property(e => e.RoleName)
                 .HasMaxLength(255)
                 .HasColumnName("role_name");
+        });
+
+        modelBuilder.Entity<Semester>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("semesters");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.SemesterName)
+                .HasMaxLength(255)
+                .HasColumnName("semester_name");
         });
 
         modelBuilder.Entity<Status>(entity =>

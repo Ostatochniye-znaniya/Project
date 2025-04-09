@@ -1,5 +1,7 @@
-﻿
-namespace KnowledgeApp.DataAccess.Entities;
+﻿using System;
+using System.Collections.Generic;
+
+namespace KnowledgeApp.API;
 
 public partial class Department
 {
