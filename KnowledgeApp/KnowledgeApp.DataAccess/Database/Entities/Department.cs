@@ -1,4 +1,6 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+
 namespace KnowledgeApp.DataAccess.Entities;
 
 public partial class Department
