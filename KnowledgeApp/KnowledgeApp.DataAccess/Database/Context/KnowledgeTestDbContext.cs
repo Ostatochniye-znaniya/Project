@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using KnowledgeApp.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 
-namespace KnowledgeApp.API;
+namespace KnowledgeApp.DataAccess.Context;
 
 public partial class KnowledgeTestDbContext : DbContext
 {

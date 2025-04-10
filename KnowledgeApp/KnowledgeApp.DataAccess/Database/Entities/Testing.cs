@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace KnowledgeApp.API;
+namespace KnowledgeApp.DataAccess.Entities;
 
 public partial class Testing
 {
