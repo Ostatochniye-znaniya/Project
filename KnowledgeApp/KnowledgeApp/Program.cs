@@ -18,6 +18,8 @@ builder.Services.AddScoped<StudentRepository>();
 builder.Services.AddScoped<StudentService>();
 builder.Services.AddScoped<DisciplineRepository>();
 builder.Services.AddScoped<DisciplineService>();
+builder.Services.AddScoped<ReportRepository>();
+builder.Services.AddScoped<ReportService>();
 
 
 
